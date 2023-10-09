@@ -9,14 +9,15 @@ import java.util.Scanner;
 public class Ejercicio2 {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Me diz dois numeros gata");
+        System.out.print("Escribe un número entero");
+        System.out.print("Escribe otro número entero");
         int num1 = teclado.nextInt();
         int num2 = teclado.nextInt();
 
         if (num1>num2) {
-            System.out.println("O primeiro numero é maior que o primeiro");
+            System.out.println(num1+ " é maior que o primeiro " +num2);
         } else  {
-            System.out.println("O segundo número é maior que o primeiro");
+            System.out.println(num1+ " es menor o igual que " +num2);
         }
 
     }

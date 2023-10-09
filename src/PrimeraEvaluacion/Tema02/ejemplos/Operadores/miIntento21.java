@@ -16,15 +16,15 @@ public class miIntento21 {
         int productos = teclado.nextInt();
 
         System.out.println("Ponga aqui el IVA: ");
-        double iva = teclado.nextDouble();
+        int iva = teclado.nextInt();
 
         //Aqui iremos hacer el calculo
         double subTotal = productos * precio;
-        double Total = subTotal + (subTotal * iva) / 100;
+        double Total = subTotal + (subTotal * iva) / 100.0;
      //   System.out.println(numero + " incrementado un " + porcentaje + "% es " + numeroIncre);
     //    double porcentajeCalc = numero * porcentaje / 100;
 
-        System.out.println("El total a pagar " + Total);
+        System.out.println("El total a pagar " + Total + "$");
 
 
     }

@@ -1,4 +1,4 @@
-package Swith;
+package Swith_if;
 
 import java.util.Scanner;
 

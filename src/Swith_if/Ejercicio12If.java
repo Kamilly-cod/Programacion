@@ -1,8 +1,8 @@
-package Swith;
+package Swith_if;
 
 import java.util.Scanner;
 
-public class SwithTest12 {
+public class Ejercicio12If {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         // Mostramos un menú para elegir la casa
@@ -13,18 +13,19 @@ public class SwithTest12 {
         System.out.println("4. ravenclaw");
         int casa = teclado.nextInt();
         // una vez selecionada una opción, escribimos una u otra cosa en función de esa opción
-        switch (casa) {
-            case 1:
-                System.out.println("Valentia"); break;
-            case 2:
-                System.out.println("Lealtade"); break;
-            case 3:
-                System.out.println("Astucia"); break;
-            case 4:
-                System.out.println("Intelecto"); break;
-            default:
-                System.out.println("No posue ninguna casa");
+        if (casa == 1) { // si es "gryffindor", sale "valentía" ;
+            System.out.println("Valentia");}
+        else if (casa ==2) {
+            System.out.println("Lealtad");
         }
-
+        else if (casa ==3) {
+            System.out.println("Astucia");
+        }
+        else if (casa ==4) {
+            System.out.println("Intelecto");
+        }
+        else {
+            System.out.println("No es una casa válida");
+        }
     }
 }

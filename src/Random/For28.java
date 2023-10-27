@@ -13,6 +13,7 @@ public class For28 {
            if ( i % 5 == 0) {
                System.out.print(i + " ");
            }
+
         }
 
 

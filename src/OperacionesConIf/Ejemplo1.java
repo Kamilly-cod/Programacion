@@ -8,6 +8,9 @@ public class Ejemplo1 {
         // POR EJEMPLO, en ese caso, pondriamos user. euals(usuario)
         System.out.println("Adriano".equals("adriano")); // false
         System.out.println("Adriano".equals("Adriano")); // false
+        System.out.println("** Cambio la primera nota ***");
+
+
 
     }
 }
